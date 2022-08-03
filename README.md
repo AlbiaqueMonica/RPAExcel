@@ -11,3 +11,16 @@ This template robot:
 ## Learning materials
 
 - [All docs related to Robot Framework](https://robocorp.com/docs/languages-and-frameworks/robot-framework)
+
+## Ejercicio del curso "RPA Developer Course Robocorp"
+En este proyecto además de procesar archivos Excel, exportamos a PDF y finalmente mostramos los archivos por pantalla.
+Este proyecto utiliza las librerías:
+-   RPA.Tables
+-   RPA.Excel.Files
+-   RPA.Excel.Application
+-   String
+-   RPA.PDF
+-   RPA.Desktop
+
+
+![image](https://user-images.githubusercontent.com/72052340/182722670-c8c1c74a-fbd6-4bb1-9c51-a24dc9c7c916.png)
