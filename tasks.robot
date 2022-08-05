@@ -29,5 +29,5 @@ Iterate WorkSheets Example
 Export To PDF Example
     Export Workbook as PDF  my_new_wbook.xlsx
 Open Files Example
-    Open Files    my_new_wbook.xlsx
+    Open Files    
     

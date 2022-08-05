@@ -47,13 +47,19 @@ Export Workbook as PDF
     [Arguments]    ${EXCEL_FILE}
     RPA.Excel.Files.Open Workbook    ${EXCEL_FILE}
     Export as PDF    ${OUTPUT_DIR}${/}myfile.pdf    ${EXCEL_FILE}
+    Quit Application
 
 
 Open Files
     #[Arguments]    ${EXCEL_FILE}
     #Open File    ${EXCEL_FILE}
     Open File    ./DataSets/sampledatainsurance.xlsx   
-    [Arguments]    ${EXCEL_FILE}
-    RPA.Excel.Files.Open Workbook    ${EXCEL_FILE}
-    RPA.Excel.Application.Open Application     TRUE
+    Open File    my_new_wbook.xlsx
+    # [Arguments]    ${EXCEL_FILE}
+    # RPA.Excel.Application.Open Workbook    ${EXCEL_FILE}
+    # RPA.Excel.Application.Open Application     TRUE
+    # Sleep    5
+    # Quit Application
+    #Para abrir el archivo con Excel.Application siempre debo despues hacer el Quit Application sino da error de 
     Open File    ${OUTPUT_DIR}${/}myfile.pdf
+    
